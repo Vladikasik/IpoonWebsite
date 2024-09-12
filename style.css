@@ -13,11 +13,12 @@ main {
     align-items: center;
 }
 
-img {
-    width: auto;
+main img {
+    width: 100vw;
     height: 100vh;
     max-width: 100%;
     object-fit: cover;
+    object-position: bottom;
 }
 
 footer {
@@ -51,11 +52,11 @@ footer button:hover {
 .fixed-div {
     position: absolute;
     z-index: 1;
-
+    border: white 1px solid;
 }
 
 #div1 {
-    top: 80%;
+    top: 73%;
     left: 35%;
     width: 15%;
     height: 15%;
@@ -64,7 +65,7 @@ footer button:hover {
 }
 
 #div2 {
-    top: 80%;
+    top: 73%;
     right: 35%;
     width: 15%;
     height: 15%;
