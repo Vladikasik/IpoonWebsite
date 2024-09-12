@@ -13,6 +13,6 @@ if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Windows NT|M
   messageBox.style.padding = '20px';
   messageBox.style.fontSize = '36px';
   messageBox.style.fontWeight = 'bold';
-  messageBox.innerHTML = 'Пожалуйста, заходите на сайт с помощью компьютера или мобильного устройства.';
+  messageBox.innerHTML = 'Please access the site using a computer or mobile device.';
   document.body.appendChild(messageBox);
 }
