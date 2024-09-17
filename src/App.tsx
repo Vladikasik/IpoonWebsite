@@ -40,8 +40,8 @@ function App() {
         <meta property="og:site_name" content="Lightwork"/>
         <meta property="og:title" content="Lightwork Labs"/>
         <meta property="og:description" content="Community driven consumer startup incubator"/>
-        <meta property="og:image" content="https://for-vlad.vercel.app/link-preview.png" className="nextHead"/>
-        <meta name="twitter:image" content="https://for-vlad.vercel.app/link-preview.png" />
+        <meta property="og:image" content="https://for-vlad.vercel.app/assets/link-preview.png" className="nextHead"/>
+        <meta name="twitter:image" content="https://for-vlad.vercel.app/assets/link-preview.png" />
         <meta property="og:url" content="https://for-vlad.vercel.app/"/>
         <meta property="twitter:card" content="summary_large_image"/>
         <meta property="twitter:title" content="Lightwork Labs"/>
