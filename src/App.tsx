@@ -1,4 +1,5 @@
-import Analytics from '@vercel/analytics';
+import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import styles from './App.module.css'
 
 function App() {
@@ -26,7 +27,6 @@ function App() {
     window.location.href = url;
   };
 
-  Analytics.inject();
 
   return (
     <>
@@ -49,6 +49,8 @@ function App() {
         <button onClick={() => handleLinkClick('https://www.linkedin.com/company/light-work-labs')}>
             <img src={require('./assets/linkedin.png')} alt="linkedin" />
         </button>
+        <Analytics />
+        <SpeedInsights />
     </footer>
     </>
   );
