@@ -2,7 +2,7 @@ import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/react"
 import { Helmet } from 'react-helmet';
 import styles from './App.module.css'
-import previewImage from '../src/assets/link-preview.png'
+
 
 function App() {
   const userAgent = navigator.userAgent;
@@ -40,9 +40,7 @@ function App() {
         <meta property="og:title" content="Lightwork Labs"/>
         <meta property="og:description" content="Community driven consumer startup incubator"/>
         <meta property="og:image" content="https://for-vlad.vercel.app/assets/link-preview.png"/>
-        <meta property="og:image:width" content="600" />
-        <meta property="og:image:height" content="300" />
-        <meta property="og:url" content={'https://for-vlad.vercel.app' + window.location.pathname + window.location.search}/>
+        <meta property="og:url" content="https://for-vlad.vercel.app" />
         <meta property="twitter:card" content="summary_large_image"/>
         <meta property="og:site_name" content="Lightwork"/>
         <meta name="twitter:image" content="https://for-vlad.vercel.app/assets/link-preview.png" />
