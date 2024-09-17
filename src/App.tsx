@@ -1,6 +1,5 @@
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/react"
-import { Helmet } from 'react-helmet';
 import styles from './App.module.css'
 
 
@@ -32,22 +31,6 @@ function App() {
 
   return (
     <>
-      <Helmet>
-        <meta charSet="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-        <title>Lightwork Labs</title>
-        <meta property="og:image" content="/assets/link-preview.png"/>
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="Lightwork Labs"/>
-        <meta name="description" content="Community driven consumer startup incubator"/>
-        <meta property="og:description" content="Community driven consumer startup incubator"/>
-        <meta property="og:url" content="https://for-vlad.vercel.app" />
-        <meta property="twitter:card" content="summary_large_image"/>
-        <meta property="og:site_name" content="Lightwork"/>
-        <meta name="twitter:image" content="/assets/link-preview.png" />
-        <meta property="twitter:title" content="Lightwork Labs"/>
-        <meta property="twitter:description" content="Community driven consumer startup incubator"/>
-      </Helmet>
       <main>
         <img src={require('./assets/background.png')} alt="background" />
         <a href="https://www.google.com">
