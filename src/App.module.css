@@ -84,7 +84,6 @@ footer button:hover {
   .imageWrapper {
     background-image: url('./assets/mobile-background.png')!important;
     width: 100%;
-    margin-bottom: 140px;
   }
   .fixedDiv1 {
       top: 75%;
@@ -98,4 +97,11 @@ footer button:hover {
       width: 35%;
       height: 20%;
   }
+
+  @supports (-webkit-touch-callout: none) {
+    .imageWrapper {
+      margin-bottom: 140px;
+    }
+  }
+  
 }
