@@ -7,7 +7,7 @@ body {
 main {
   width: 100vw;
   height: 100vh;
-  background-color: #000000;
+  background-color: rgb(23, 16, 31);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -84,7 +84,7 @@ footer button:hover {
   .imageWrapper {
     background-image: url('./assets/mobile-background.png')!important;
     width: 100%;
-    margin-bottom: 120px;
+    margin-bottom: 140px;
   }
   .fixedDiv1 {
       top: 75%;
