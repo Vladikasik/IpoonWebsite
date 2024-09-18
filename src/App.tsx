@@ -38,7 +38,7 @@ function App() {
         <a href="https://www.light-work.info/Lightwork-ef4f4806229e451aa702981751081228" className={styles.fixedDiv2}>
         </a>
       </main>
-      {/* <footer>
+      <footer>
         <button onClick={() => handleLinkClick('https://t.me/lightwork_labs')}>
             <img src={require('./assets/telegram.png')} alt="telegram" />
         </button>
@@ -50,7 +50,7 @@ function App() {
         </button>
         <Analytics />
         <SpeedInsights />
-    </footer> */}
+    </footer>
     </>
   );
 }

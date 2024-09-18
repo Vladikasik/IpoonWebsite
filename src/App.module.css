@@ -19,11 +19,11 @@ main img {
   width: 100%;
   height: 100%;
   max-width: 100%;
-  object-fit: cover;
+  object-fit: contain;
   object-position: bottom;
 }
 
-/* footer {
+footer {
   position: absolute;
   bottom: 20px;
   width: 100%;
@@ -52,7 +52,7 @@ footer button img {
 
 footer button:hover {
   background-color: rgba(28, 26, 26, 0.5);
-} */
+}
 
 .fixedDiv1 {
   position: absolute;
