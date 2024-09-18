@@ -63,7 +63,8 @@ footer button:hover {
 .fixedDiv1 {
   position: absolute;
   z-index: 1;
-  top: 77%;
+  border: white 1px solid;
+  top: 73%;
   left: 35%;
   width: 15%;
   height: 15%;
@@ -74,7 +75,8 @@ footer button:hover {
 .fixedDiv2 {
   position: absolute;
   z-index: 1;
-  top: 77%;
+  border: white 1px solid;
+  top: 73%;
   right: 35%;
   width: 15%;
   height: 15%;
