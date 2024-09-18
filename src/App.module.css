@@ -21,16 +21,10 @@ main {
   background-size: cover;
   background-position: bottom;
   padding-bottom: env(safe-area-inset-bottom);
-}
-
-
-.imageWrapper img {
-  width: 100%;
-  min-height: 100vh;
-  max-width: 100%;
   object-fit: cover;
   object-position: bottom;
 }
+
 
 footer {
   position: absolute;
