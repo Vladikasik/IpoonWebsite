@@ -32,7 +32,9 @@ function App() {
   return (
     <>
       <main>
-        <img src={require('./assets/background.png')} alt="background" />
+        <div className={styles.imageWrapper}>
+          <img src={require('./assets/background.png')} alt="background" />
+        </div>
         <a href="https://www.light-work.info/Hacker-Portal-e12ad427142748268045eee48020f975" className={styles.fixedDiv1}>
         </a>
         <a href="https://www.light-work.info/Lightwork-ef4f4806229e451aa702981751081228" className={styles.fixedDiv2}>
