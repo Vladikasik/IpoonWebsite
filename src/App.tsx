@@ -37,7 +37,7 @@ function App() {
             <div className={styles.fixedDiv} id="div1"></div>
         </a>
         <a href="https://www.light-work.info/Lightwork-ef4f4806229e451aa702981751081228">
-            <div className={styles.fixeDiv} id="div2"></div>
+            <div className={styles.fixeвDiv} id="div2"></div>
         </a>
       </main>
       <footer>
