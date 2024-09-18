@@ -33,15 +33,13 @@ function App() {
     <>
       <main>
         <img src={require('./assets/background.png')} alt="background" />
-        <a href="https://www.google.com">
-            <div className={styles.fixedDiv} id="div1"></div>
+        <a href="https://www.light-work.info/Hacker-Portal-e12ad427142748268045eee48020f975" className={styles.fixedDiv1}>
         </a>
-        <a href="https://www.light-work.info/Lightwork-ef4f4806229e451aa702981751081228">
-            <div className={styles.fixeDiv} id="div2"></div>
+        <a href="https://www.light-work.info/Lightwork-ef4f4806229e451aa702981751081228" className={styles.fixedDiv2}>
         </a>
       </main>
       <footer>
-        <button onClick={() => handleLinkClick('https://t.me/vladislav_ain')}>
+        <button onClick={() => handleLinkClick('https://t.me/lightwork_labs')}>
             <img src={require('./assets/telegram.png')} alt="telegram" />
         </button>
         <button onClick={() => handleLinkClick('https://x.com/lightworkdao')}>
