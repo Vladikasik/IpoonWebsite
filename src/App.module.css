@@ -99,8 +99,12 @@ footer button:hover {
   }
 
   @supports (-webkit-touch-callout: none) {
+    html, body {
+      overflow: hidden;
+    }
     .imageWrapper {
       margin-bottom: 140px;
+      box-sizing: border-box;
     }
   }
   
