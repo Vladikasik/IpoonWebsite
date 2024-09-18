@@ -84,7 +84,7 @@ footer button:hover {
   .imageWrapper {
     background-image: url('./assets/mobile-background.png')!important;
     width: 100%;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
   }
   .fixedDiv1 {
       top: 75%;
