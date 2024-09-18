@@ -21,7 +21,6 @@ main {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  object-position: bottom;
 }
 
 .imageWrapper img {
@@ -29,6 +28,7 @@ main {
   height: 100%;
   max-width: 100%;
   object-fit: cover;
+  object-position: bottom;
 }
 
 footer {
@@ -86,7 +86,7 @@ footer button:hover {
 
 
 @media only screen and (max-width: 500px) {
-  main img {
+  .imageWrapper img {
     content: url('./assets/mobile-background.png');
     width: 100%;
   }
