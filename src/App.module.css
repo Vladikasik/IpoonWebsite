@@ -85,10 +85,11 @@ footer button:hover {
 
 @media only screen and (max-width: 500px) {
   main img {
-    content: url('./assets/background-mobile.png');
+    content: url('./assets/mobile-background.png');
     width: 100%;
   }
   .fixedDiv1 {
+      top: 75%;
       left: 25%;
       width: 30%;
       height: 15%;
