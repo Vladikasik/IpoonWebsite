@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "light-work.io",
+  "Id": "3bcf067a-0d15-4545-915a-b7e17bc3933a"
+}
